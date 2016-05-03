@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MKEncryptor_BCProvider", "src\MKEncryptor_BCProvider\MKEncryptor_BCProvider.csproj", "{F92882FA-67EE-4595-B150-90B665DE7EF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MKEncryptor_Core", "src\MKEncryptor_Core\MKEncryptor_Core.csproj", "{61166F74-0739-4566-96B3-2C23640E81E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MKEncryptor_Interfaces", "src\MKEncryptor_Interfaces\MKEncryptor_Interfaces.csproj", "{704C7D0A-0C07-4BCA-B43F-015B30364F06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2DD1C04B-2932-4C10-B4E7-3AE84DC446A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MKEncryptor_BCProvider_Tests", "tests\MKEncryptor_BCProvider_Tests\MKEncryptor_BCProvider_Tests.csproj", "{D536131A-A094-4A8A-AAFE-44C15C704B5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MKEncryptor_Core_Tests", "tests\MKEncryptor_Core_Tests\MKEncryptor_Core_Tests.csproj", "{092F315C-7CA5-4CC0-8747-F27FBCFC76EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F92882FA-67EE-4595-B150-90B665DE7EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92882FA-67EE-4595-B150-90B665DE7EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92882FA-67EE-4595-B150-90B665DE7EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92882FA-67EE-4595-B150-90B665DE7EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61166F74-0739-4566-96B3-2C23640E81E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61166F74-0739-4566-96B3-2C23640E81E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61166F74-0739-4566-96B3-2C23640E81E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61166F74-0739-4566-96B3-2C23640E81E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{704C7D0A-0C07-4BCA-B43F-015B30364F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704C7D0A-0C07-4BCA-B43F-015B30364F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704C7D0A-0C07-4BCA-B43F-015B30364F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704C7D0A-0C07-4BCA-B43F-015B30364F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D536131A-A094-4A8A-AAFE-44C15C704B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D536131A-A094-4A8A-AAFE-44C15C704B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D536131A-A094-4A8A-AAFE-44C15C704B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D536131A-A094-4A8A-AAFE-44C15C704B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092F315C-7CA5-4CC0-8747-F27FBCFC76EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092F315C-7CA5-4CC0-8747-F27FBCFC76EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092F315C-7CA5-4CC0-8747-F27FBCFC76EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092F315C-7CA5-4CC0-8747-F27FBCFC76EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D536131A-A094-4A8A-AAFE-44C15C704B5D} = {2DD1C04B-2932-4C10-B4E7-3AE84DC446A7}
+		{092F315C-7CA5-4CC0-8747-F27FBCFC76EA} = {2DD1C04B-2932-4C10-B4E7-3AE84DC446A7}
+	EndGlobalSection
+EndGlobal
